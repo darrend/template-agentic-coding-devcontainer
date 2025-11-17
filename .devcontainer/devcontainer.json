@@ -8,6 +8,5 @@
       ]
     }
   },
-  "postCreateCommand": "npm install -g @github/copilot @google/gemini-cli",
-  "remoteUser": "vscode"
+  "postCreateCommand": "npm install -g @github/copilot @google/gemini-cli"
 }
