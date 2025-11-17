@@ -1,11 +1,6 @@
 {
   "name": "Devcontainer with Agentic Coding Tools",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-  "features": {
-    "ghcr.io/devcontainers/features/node:1": {
-      "version": "25"
-    }
-  },
+  "image": "mcr.microsoft.com/devcontainers/universal:latest",
   "customizations": {
     "codespaces": {
       "openFiles": [
