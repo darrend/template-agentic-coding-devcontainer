@@ -1,0 +1,18 @@
+{
+  "name": "Devcontainer with Agentic Coding Tools",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "25"
+    }
+  },
+  "customizations": {
+    "codespaces": {
+      "openFiles": [
+        "README.md"
+      ]
+    }
+  },
+  "postCreateCommand": "npm install -g @github/copilot @google/gemini-cli",
+  "remoteUser": "vscode"
+}
